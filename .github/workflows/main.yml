@@ -52,3 +52,4 @@ jobs:
           echo ${{ secrets.REPO_PASSWORD }} | docker login -u ${{ secrets.REPO_USER }} --password-stdin
           docker scout quickview
           docker scout cves
+          docker scout recommendations myapp:latest
