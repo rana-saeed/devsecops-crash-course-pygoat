@@ -59,5 +59,6 @@ jobs:
      with: 
        dockerhub-user: ${{ secrets.REPO_USER }}
        dockerhub-password: ${{ secrets.REPO_PASSWORD }}
-       command: quickview, cves, recommandations
+       # command: quickview, cves, recommandations
+       command: quickview,cves
         
